@@ -38,7 +38,7 @@ const Portfolio = () => {
                 <div className="text-center mb-4">
                   <img src={io} style={avatarStyle} alt="Avatar" width={150} />
                   <h2 className="mt-3">Desarrollador Web</h2>
-                  <p className="text-muted">Full Stack Developer | React | Node.js | MongoDB</p>
+                  <p className="text-muted">Full Stack Developer | Angular | Nest.js | Vue.js | React</p>
                 </div>
                 <hr />
                 <div className="section">
@@ -54,7 +54,7 @@ const Portfolio = () => {
                 <div className="section">
                   <h3>Perfil Profesional</h3>
                   <p>
-                    Soy un desarrollador web apasionado por la creación de aplicaciones web modernas y escalables. Tengo experiencia en el desarrollo frontend y backend utilizando tecnologías como React, Node.js y MongoDB.
+                    Soy un desarrollador web apasionado por la creación de aplicaciones web modernas y escalables. Tengo experiencia en el desarrollo frontend y backend utilizando tecnologías como Angular, React, Vue y Nest.js.
                   </p>
                 </div>
                 <hr />
