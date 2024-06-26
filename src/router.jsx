@@ -4,7 +4,7 @@ import Proyectos  from './components/proyectos'
 
   function AppRouter () {
     return (
-    <Router basename="/">
+    <Router basename="/git-portafolio">
       <Routes>
         <Route path="/" element={<CV />} />
         <Route path="/proyectos" element={<Proyectos />} />
