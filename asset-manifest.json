@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/git-portafolio/static/css/main.372f07ef.css",
+    "main.js": "/git-portafolio/static/js/main.731ca159.js",
+    "static/js/453.8d207167.chunk.js": "/git-portafolio/static/js/453.8d207167.chunk.js",
+    "static/media/fondo.png": "/git-portafolio/static/media/fondo.12a0b5ed848cfe50734a.png",
+    "static/media/io.png": "/git-portafolio/static/media/io.e9570e20d79ef4e108dd.png",
+    "index.html": "/git-portafolio/index.html",
+    "main.372f07ef.css.map": "/git-portafolio/static/css/main.372f07ef.css.map",
+    "main.731ca159.js.map": "/git-portafolio/static/js/main.731ca159.js.map",
+    "453.8d207167.chunk.js.map": "/git-portafolio/static/js/453.8d207167.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.372f07ef.css",
+    "static/js/main.731ca159.js"
+  ]
+}
