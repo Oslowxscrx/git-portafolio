@@ -44,7 +44,7 @@ const Portfolio = () => {
                 <div className="section">
                   <h3>Datos Personales</h3>
                   <ul>
-                    <li><strong>Nombre:</strong> Oscar González</li>
+                    <li><strong>Nombre:</strong> Oscar Nogales</li>
                     <li><strong>Edad:</strong> 22 años</li>
                     <li><strong>Email:</strong> oscar0694nogales@gmail.com</li>
                     <li><strong>Teléfono:</strong> 0980325270</li>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                   <h3>Experiencia Laboral</h3>
                   <ul>
                     <li>
-                      <strong>Desarrollador Full Stack</strong>
+                      <strong>Desarrollador Practicante</strong>
                       <p>Empresa TOC SYSTEMS | 2022 - 2024</p>
                       <p>
                         Desarrollé aplicaciones web utilizando VUE.JS para el frontend y Node.js para el backend.
