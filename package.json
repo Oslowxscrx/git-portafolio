@@ -2,7 +2,7 @@
   "name": "hoja-de-vida-oscar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://oslowxscrx.github.io/git-portafolio/",
+  "homepage": "http://Oslowxscrx.github.io/git-portafolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -22,6 +22,9 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"  
   },
   "scripts": {
     "predeploy": "npm run build",
