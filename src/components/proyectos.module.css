@@ -1,0 +1,89 @@
+.fondo {
+  background-image: url('../assets/fondo.png'); /* Ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo {
+  color: white;
+  font-size: 56px;
+  margin-bottom: 80px;
+}
+
+.botonesContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px; /* Limita el tamaño máximo de los botones */
+}
+
+.boton1 {
+  background: linear-gradient(45deg, #3EB984, #31475D);
+  color: white;
+  border: none;
+  padding: 20px 0px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 120%;
+  height: 150%;
+}
+
+.boton2 {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c); /* Degradado para Angular */
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 115%;
+  height: 150%;
+
+}
+
+.boton3 {
+  background: linear-gradient(45deg, #00d7fb, #000000); /* Color base para React */
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 120%;
+  height: 150%;
+
+}
+
+.boton1:hover {
+  background-color: #00cc29; /* Efecto hover para Vue */
+}
+
+.boton2:hover {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b); /* Efecto hover para Angular */
+}
+
+.boton3:hover {
+  background-color: #0086d1; /* Efecto hover para React */
+}
+.botonVolver {
+  background: linear-gradient(45deg, #8B58AF, #670A49); /* Color base para React */
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import CV from './components/hojaDeVida'
+import CV from './pages/cv/hojaDeVida'
 import Proyectos  from './components/proyectos'
+import ProyectoVue from './pages/proyectoVue/proyectoVue'
 
   function AppRouter () {
     return (
@@ -8,6 +9,8 @@ import Proyectos  from './components/proyectos'
       <Routes>
         <Route path="/" element={<CV />} />
         <Route path="/proyectos" element={<Proyectos />} />
+        <Route path="/proyectoVue" element={<ProyectoVue />} />
+        <Route path="/proyectoAngular" element={<Proyectos />} />
       </Routes>
     </Router>
   );

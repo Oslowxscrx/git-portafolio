@@ -1,0 +1,59 @@
+.fondo {
+  background-image: url('../../assets/fondo.png'); /* Ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.cardCustom {
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro para el card */
+  border-radius: 10px;
+}
+
+.titulo {
+  color: white;
+  font-size: 56px;
+  margin-bottom: 40px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.imagenQR {
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.buttonPrimary:hover {
+  background-color: #007f12;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.botonVolver {
+  background: linear-gradient(45deg, #8B58AF, #670A49); /* Color base para React */
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}

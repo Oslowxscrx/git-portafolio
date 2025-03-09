@@ -1,47 +1,25 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import io from '../../assets/io.png';
 import { Link } from 'react-router-dom';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import io from '../assets/io.png';
-import fondoImage from '../assets/fondo.png';
+import styles from './hojaDeVida.module.css';
+import fondoImage from '../../assets/fondo.png';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Portfolio = () => {
-  const fondoStyle = {
-    backgroundImage: `url(${fondoImage})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    minHeight: '100vh',
-    padding: '40px 0',
-  };
-
-  const cardStyle = {
-    backgroundColor: 'rgba(255, 255, 255, 0.8)',
-    borderRadius: '15px',
-    padding: '20px',
-    boxShadow: '0 0 15px rgba(0, 0, 0, 0.2)',
-  };
-
-  const avatarStyle = {
-    borderRadius: '50%',
-    border: '4px solid #fff',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-  };
-
   return (
-    <div style={fondoStyle}>
+    <div className={styles.fondo} style={{ backgroundImage: `url(${fondoImage})` }}>
       <Container className="py-5">
         <Row className="justify-content-center">
           <Col md={8}>
-            <Card style={cardStyle}>
+            <Card className={styles.cardCustom}>
               <Card.Body>
-                <div className="text-center mb-4">
-                  <img src={io} style={avatarStyle} alt="Avatar" width={150} />
+                <div className={`${styles.textCenter} mb-4`}>
+                  <img src={io} className={styles.avatar} alt="Avatar" width={150} />
                   <h2 className="mt-3">Desarrollador Web</h2>
                   <p className="text-muted">Full Stack Developer | Angular | Nest.js | Vue.js | React</p>
                 </div>
                 <hr />
-                <div className="section">
+                <div className={styles.section}>
                   <h3>Datos Personales</h3>
                   <ul>
                     <li><strong>Nombre:</strong> Oscar Nogales</li>
@@ -51,14 +29,14 @@ const Portfolio = () => {
                   </ul>
                 </div>
                 <hr />
-                <div className="section">
+                <div className={styles.section}>
                   <h3>Perfil Profesional</h3>
                   <p>
                     Soy un desarrollador web apasionado por la creación de aplicaciones web modernas y escalables. Tengo experiencia en el desarrollo frontend y backend utilizando tecnologías como Angular, React, Vue y Nest.js.
                   </p>
                 </div>
                 <hr />
-                <div className="section">
+                <div className={styles.section}>
                   <h3>Educación</h3>
                   <ul>
                     <li><strong>Universidad:</strong> Instituto Yavirac</li>
@@ -67,7 +45,7 @@ const Portfolio = () => {
                   </ul>
                 </div>
                 <hr />
-                <div className="section">
+                <div className={styles.section}>
                   <h3>Experiencia Laboral</h3>
                   <ul>
                     <li>
@@ -82,7 +60,7 @@ const Portfolio = () => {
                 <hr />
                 <div className="text-center mt-4">
                   <Link to="/proyectos">
-                    <Button variant="primary">Ver Proyectos</Button>
+                    <Button className={styles.buttonPrimary}>Ver Proyectos</Button>
                   </Link>
                 </div>
               </Card.Body>
