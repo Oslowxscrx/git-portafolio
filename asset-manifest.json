@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/git-portafolio/static/css/main.ff02f4b5.css",
-    "main.js": "/git-portafolio/static/js/main.7200e9d3.js",
+    "main.css": "/git-portafolio/static/css/main.3fe37595.css",
+    "main.js": "/git-portafolio/static/js/main.dfcb5986.js",
     "static/js/453.8d207167.chunk.js": "/git-portafolio/static/js/453.8d207167.chunk.js",
     "static/media/fondo.png": "/git-portafolio/static/media/fondo.12a0b5ed848cfe50734a.png",
+    "static/media/vue1.png": "/git-portafolio/static/media/vue1.e07bad5bd9c2f9978d9e.png",
     "static/media/io.png": "/git-portafolio/static/media/io.e9570e20d79ef4e108dd.png",
+    "static/media/vue3.png": "/git-portafolio/static/media/vue3.6de0188f1e928e842811.png",
+    "static/media/vue2.png": "/git-portafolio/static/media/vue2.44fa8035082792d5d3fa.png",
+    "static/media/vue4.png": "/git-portafolio/static/media/vue4.e6516a4f4a1377619b86.png",
     "index.html": "/git-portafolio/index.html",
-    "main.ff02f4b5.css.map": "/git-portafolio/static/css/main.ff02f4b5.css.map",
-    "main.7200e9d3.js.map": "/git-portafolio/static/js/main.7200e9d3.js.map",
+    "main.3fe37595.css.map": "/git-portafolio/static/css/main.3fe37595.css.map",
+    "main.dfcb5986.js.map": "/git-portafolio/static/js/main.dfcb5986.js.map",
     "453.8d207167.chunk.js.map": "/git-portafolio/static/js/453.8d207167.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff02f4b5.css",
-    "static/js/main.7200e9d3.js"
+    "static/css/main.3fe37595.css",
+    "static/js/main.dfcb5986.js"
   ]
 }
