@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/git-portafolio/static/css/main.edb7d193.css",
-    "main.js": "/git-portafolio/static/js/main.fac032eb.js",
+    "main.css": "/git-portafolio/static/css/main.36f327da.css",
+    "main.js": "/git-portafolio/static/js/main.b8794380.js",
     "static/js/453.8d207167.chunk.js": "/git-portafolio/static/js/453.8d207167.chunk.js",
     "static/media/proyectosR.png": "/git-portafolio/static/media/proyectosR.0bff4f8799e61c18767a.png",
     "static/media/cv.png": "/git-portafolio/static/media/cv.988db29a390f0a55e36e.png",
@@ -23,12 +23,12 @@
     "static/media/vue2.png": "/git-portafolio/static/media/vue2.44fa8035082792d5d3fa.png",
     "static/media/vue4.png": "/git-portafolio/static/media/vue4.e6516a4f4a1377619b86.png",
     "index.html": "/git-portafolio/index.html",
-    "main.edb7d193.css.map": "/git-portafolio/static/css/main.edb7d193.css.map",
-    "main.fac032eb.js.map": "/git-portafolio/static/js/main.fac032eb.js.map",
+    "main.36f327da.css.map": "/git-portafolio/static/css/main.36f327da.css.map",
+    "main.b8794380.js.map": "/git-portafolio/static/js/main.b8794380.js.map",
     "453.8d207167.chunk.js.map": "/git-portafolio/static/js/453.8d207167.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edb7d193.css",
-    "static/js/main.fac032eb.js"
+    "static/css/main.36f327da.css",
+    "static/js/main.b8794380.js"
   ]
 }
