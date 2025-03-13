@@ -1,21 +1,34 @@
 {
   "files": {
-    "main.css": "/git-portafolio/static/css/main.3fe37595.css",
-    "main.js": "/git-portafolio/static/js/main.dfcb5986.js",
+    "main.css": "/git-portafolio/static/css/main.edb7d193.css",
+    "main.js": "/git-portafolio/static/js/main.fac032eb.js",
     "static/js/453.8d207167.chunk.js": "/git-portafolio/static/js/453.8d207167.chunk.js",
+    "static/media/proyectosR.png": "/git-portafolio/static/media/proyectosR.0bff4f8799e61c18767a.png",
+    "static/media/cv.png": "/git-portafolio/static/media/cv.988db29a390f0a55e36e.png",
+    "static/media/angular.png": "/git-portafolio/static/media/angular.c35967ff1afd463789fb.png",
+    "static/media/vue.png": "/git-portafolio/static/media/vue.a9b2f9fbfcedb7a22bef.png",
+    "static/media/login.png": "/git-portafolio/static/media/login.8ccefc91371ef5b6348f.png",
+    "static/media/code1.png": "/git-portafolio/static/media/code1.82718324fe8bfd62bc26.png",
     "static/media/fondo.png": "/git-portafolio/static/media/fondo.12a0b5ed848cfe50734a.png",
+    "static/media/code2.png": "/git-portafolio/static/media/code2.23fa68a211a9efc327d3.png",
+    "static/media/dashboard.png": "/git-portafolio/static/media/dashboard.12be98d74010b11bf0c1.png",
+    "static/media/actividades.png": "/git-portafolio/static/media/actividades.df68edc5649720c02c65.png",
+    "static/media/proyectos.png": "/git-portafolio/static/media/proyectos.8a0387c76dd82657e6a8.png",
+    "static/media/areas.png": "/git-portafolio/static/media/areas.48e38623a8312cf4f2e3.png",
+    "static/media/empleados.png": "/git-portafolio/static/media/empleados.1c8b952a2993874100c5.png",
     "static/media/vue1.png": "/git-portafolio/static/media/vue1.e07bad5bd9c2f9978d9e.png",
     "static/media/io.png": "/git-portafolio/static/media/io.e9570e20d79ef4e108dd.png",
+    "static/media/usuarios.png": "/git-portafolio/static/media/usuarios.02524a55db67e836cc2e.png",
     "static/media/vue3.png": "/git-portafolio/static/media/vue3.6de0188f1e928e842811.png",
     "static/media/vue2.png": "/git-portafolio/static/media/vue2.44fa8035082792d5d3fa.png",
     "static/media/vue4.png": "/git-portafolio/static/media/vue4.e6516a4f4a1377619b86.png",
     "index.html": "/git-portafolio/index.html",
-    "main.3fe37595.css.map": "/git-portafolio/static/css/main.3fe37595.css.map",
-    "main.dfcb5986.js.map": "/git-portafolio/static/js/main.dfcb5986.js.map",
+    "main.edb7d193.css.map": "/git-portafolio/static/css/main.edb7d193.css.map",
+    "main.fac032eb.js.map": "/git-portafolio/static/js/main.fac032eb.js.map",
     "453.8d207167.chunk.js.map": "/git-portafolio/static/js/453.8d207167.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fe37595.css",
-    "static/js/main.dfcb5986.js"
+    "static/css/main.edb7d193.css",
+    "static/js/main.fac032eb.js"
   ]
 }
