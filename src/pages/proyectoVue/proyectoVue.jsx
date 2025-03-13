@@ -13,7 +13,12 @@ const ProyectoVue = () => {
       <Container className="py-5">
         <Row className="justify-content-center">
           <Col md={8}>
-            <Card className={styles.cardCustom}>
+            <Card style={{
+                backgroundColor: "rgba(255, 255, 255, 0.8)",
+                borderRadius: "15px",
+                padding: "20px",
+                boxShadow: "0 0 15px rgba(0, 0, 0, 0.2)",
+              }}>
               <Card.Body>
                 <div className={`${styles.textCenter} mb-4`}>
                   <h2 className="mt-3">Escáner de QR en Vue</h2>

@@ -19,29 +19,39 @@
 
 .botonesContainer {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los botones en pantallas más pequeñas */
+  gap: 60px; /* Agrega un espacio entre los botones */
   width: 100%;
   max-width: 800px; /* Limita el tamaño máximo de los botones */
+  margin: 0 auto; /* Centra el contenedor */
+}
+.item {
+  flex-grow: 1;
+  flex-basis: 200;
 }
 
 .boton1 {
   background: linear-gradient(45deg, #3EB984, #31475D);
+  align-items: center; 
   color: white;
   border: none;
-  padding: 20px 0px;
+  padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
   width: 120%;
   height: 150%;
+  gap: 10px;
 }
 
 .boton2 {
   background: linear-gradient(45deg, #ff4b2b, #ff416c); /* Degradado para Angular */
+  align-items: center; 
   color: white;
   border: none;
-  padding: 20px 20px;
+  padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
@@ -53,15 +63,17 @@
 
 .boton3 {
   background: linear-gradient(45deg, #00d7fb, #000000); /* Color base para React */
+  align-items: center; 
   color: white;
   border: none;
-  padding: 20px 30px;
+  padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
   width: 120%;
   height: 150%;
+  gap: 10px;
 
 }
 

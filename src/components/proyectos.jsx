@@ -11,7 +11,7 @@ const Proyectos = () => {
         <Link to="/proyectoVue">
           <button className={styles.boton1}>Proyecto Vue <FaVuejs /></button>
         </Link>
-        <Link>
+        <Link to={"/proyectoAngular"}>
         <button className={styles.boton2}>Proyecto Angular <FaAngular /></button>
         </Link>
         <Link to="/proyectoReact">

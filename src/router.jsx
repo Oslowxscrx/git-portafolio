@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CV from './pages/cv/hojaDeVida'
 import Proyectos  from './components/proyectos'
 import ProyectoVue from './pages/proyectoVue/proyectoVue'
+import ProyectoAngular from './pages/proyectoAngular/proyectoAngular';
+import ProyectoReact from './pages/proyectoReact/proyectoReact';
 
   function AppRouter () {
     return (
@@ -10,7 +12,8 @@ import ProyectoVue from './pages/proyectoVue/proyectoVue'
         <Route path="/" element={<CV />} />
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/proyectoVue" element={<ProyectoVue />} />
-        <Route path="/proyectoAngular" element={<Proyectos />} />
+        <Route path="/proyectoAngular" element={<ProyectoAngular />} />
+        <Route path="/proyectoReact" element={<ProyectoReact />} />
       </Routes>
     </Router>
   );

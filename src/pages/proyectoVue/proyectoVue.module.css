@@ -11,11 +11,6 @@
   padding: 20px;
 }
 
-.cardCustom {
-  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro para el card */
-  border-radius: 10px;
-}
-
 .titulo {
   color: white;
   font-size: 56px;

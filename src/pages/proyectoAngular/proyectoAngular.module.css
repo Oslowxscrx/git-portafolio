@@ -1,0 +1,139 @@
+.fondo {
+  background-image: url('../../assets/fondo.png'); /* Ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.imagen {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover .imagen {
+  transform: scale(1.1); /* Efecto al pasar el ratón */
+}
+
+.botonVolver {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.botonVolver:hover {
+  background-color: #0056b3;
+}
+
+.imagenGrande {
+  display: block;
+  width: 800%;
+  max-width: 1000px;
+  height: 400%;
+  margin: 0 auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+/* Estilos para el modal */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;         /* Modal ocupa todo el ancho de la ventana */
+  height: 100vh;        /* Modal ocupa toda la altura de la ventana */
+  max-width: none;      /* No tiene un límite de ancho */
+  max-height: none;     /* No tiene un límite de altura */
+  background-color: rgba(0, 0, 0, 0.7);  /* Fondo negro semi-transparente */
+}
+
+.modal .modal-dialog {
+  background-color: transparent; /* Fondo transparente para la card */
+  border: none; /* Sin borde */
+}
+
+.modal .modal-content {
+  background-color: transparent; /* Fondo transparente para el contenido del modal */
+  box-shadow: none; /* Elimina el shadow, si lo deseas */
+}
+
+.modal .modal-body {
+  background-color: transparent; /* Fondo transparente para el cuerpo del modal */
+  padding: 0; /* Ajusta el padding si es necesario */
+}
+
+.modalBody {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0; /* Eliminar padding para que la imagen ocupe todo el espacio */
+}
+.botonVolver {
+  background: linear-gradient(45deg, #8B58AF, #670A49); /* Color base para React */
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+  .imagenGrande {
+    width: 300%;    /* Reducir el tamaño de la imagen al 300% en pantallas pequeñas */
+    height: 150%;   /* Reducir la altura al 150% en pantallas pequeñas */
+  }
+
+  .modal-dialog {
+    width: 95vw;     /* Ajustar el modal al 95% del ancho de la ventana */
+    height: 90vh;    /* Ajustar el modal al 90% de la altura de la ventana */
+  }
+
+  .modalBody {
+    padding: 10px;  /* Agregar algo de padding para que la imagen no quede tan pegada al borde */
+  }
+}
+
+/* Media Query para pantallas aún más pequeñas (como móviles) */
+@media (max-width: 480px) {
+  .imagenGrande {
+    width: 100%;    /* Reducir aún más el tamaño de la imagen al 250% en pantallas muy pequeñas */
+    height: 125%;   /* Reducir aún más la altura al 125% */
+  }
+
+  .modal-dialog {
+    width: 90vw;     /* Ajustar el modal al 90% del ancho de la ventana */
+    height: 85vh;    /* Ajustar el modal al 85% de la altura de la ventana */
+  }
+}
+
